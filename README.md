@@ -10,8 +10,8 @@ Team 11:
 
 This project assumes that you have `node` (v13) + `yarn` installed.
 
-We use [yarn](https://yarnpkg.com/lang/en/) as the package manager for `node
-.js`.
+We use [yarn](https://yarnpkg.com/lang/en/) as the package manager for 
+`node.js`.
 
 ```bash
 yarn install
