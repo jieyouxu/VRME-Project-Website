@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
+title: Virtual Reality Meeting Environment
+subtitle: On Oculus Go
+description: VR-emulated meeting environment on the Oculus Go
+keywords: vr, meeting, oculus go
+author: Jieyou Xu, Yingming Luo, Wenxin Wang
 language: en
-timezone: ''
+timezone: UTC
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -18,8 +18,8 @@ root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -34,7 +34,7 @@ skip_render:
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
-titlecase: false # Transform title into titlecase
+titlecase: true # Transform title into title case
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
@@ -50,7 +50,7 @@ highlight:
   auto_detect: false
   tab_replace: ''
   wrap: true
-  hljs: false
+  hljs: true
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -94,9 +94,6 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: cactus
-
-theme_config:
-  colorscheme: white
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
