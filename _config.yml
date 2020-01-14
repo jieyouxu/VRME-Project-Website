@@ -99,3 +99,9 @@ theme: cactus
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
+
+# GitHub Emoji Config
+emoji:
+  styles:
+    font-size: 14px
+    font-weight: bold
