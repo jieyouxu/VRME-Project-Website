@@ -7,7 +7,8 @@
 # page within your website.
 #projects_url: http://github.com/probberechts
 
-# Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
+# Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl',
+# the 'vazir' font will be loaded.)
 direction: ltr
 # Configure the navigation menu.
 # A pair 'Key: url' will result in a link to 'url' with the name 'Key' in the
@@ -43,7 +44,8 @@ tags_overview: false
 # Options:
 #   - show_all_posts: whether to show all available posts.
 #   - post_count: whether to show only the x most recent posts.
-#   - sort_updated: sort posts by last modification date instead of creation date.
+#   - sort_updated: sort posts by last modification date instead of creation
+#     date.
 posts_overview:
   show_all_posts: false
   post_count: 5
@@ -51,7 +53,8 @@ posts_overview:
 
 # Customize the archive view.
 # Options:
-#   - sort_updated: sort posts by last modification date instead of creation date.
+#   - sort_updated: sort posts by last modification date instead of creation
+#     date.
 # Note: this does not work together with pagination, since the pagination
 # plugin will sort pages by date of creation.
 archive:
