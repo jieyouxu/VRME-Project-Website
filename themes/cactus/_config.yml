@@ -14,10 +14,15 @@ direction: ltr
 # navigation menu. Optionally, you can add translations for the 'Key' in
 # languages/*.yml
 nav:
-  home: /Home/
-  requirements: /Requirements/
-  research: /Research/
-
+  Home: /
+  Requirements: /Requirements/
+  Research: /Research/
+  HCI: /Human-Computer-Interaction/
+  Design: /Design/
+  Testing: /Testing/
+  Evaluation: /Evaluation/
+  "Future Plan": /Future-Plan/
+  Appendix: /Appendix/
 
 # Links to your social media accounts.
 # The keys should correspond to Fontawesome icon names
