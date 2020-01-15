@@ -14,6 +14,10 @@ real-time rendering and communication, allowing participants to see the
 presenter and as each other. We target inexpensive VR equipment for 
 inclusiveness.
 
+## Key Features
+
+- TODO
+
 ## Team Members
 
 - Jieyou Xu (Joe) :envelope: <jieyou.xu.18@ucl.ac.uk>
