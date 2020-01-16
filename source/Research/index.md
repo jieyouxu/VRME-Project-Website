@@ -65,14 +65,14 @@ The Mobile SDK / Native Platform for native development contains [4]:
 
 We evaluated the two representative VR head gears in target platform research and considered two options:
 
-1. Target only Oculus Go.
+**Target only Oculus Go.**
 
   - Less development time.
   - Lower learning curve.
   - Maybe too bound to the particular platform, making code reuses difficult.
   - Estimated cost: low.
-
-2. Target both Oculus Go and Google Cardboard.
+  
+**Target both Oculus Go and Google Cardboard.**
 
   - Forces us to consider VR head gear abstractions - i.e.forces the incorporation of some HAL (hardware abstraction layer).
   - Long development time (potentially double).
@@ -98,12 +98,10 @@ Each Oculus Go set (minimum, 32 GB, GBP 199) contains [13]:
 From [14], [15]:
 
 1. 5.5-inch display
-2. 2560 x 1440 resolution (1280 x 1440 per eye)
-3. Qualcomm's Snapdragon 821 processor [16]:
 
-  - Four Kryo cores running at 2.15 – 2.3 GHz
-  - Adreno 530 GPU with ~500 GFLOPS performance
-  - 64-bit LPDDR4 memory, 14LPP
+2. 2560 x 1440 resolution (1280 x 1440 per eye)
+
+3. Qualcomm's Snapdragon 821 processor [16]
 
 4. $199 base model includes 32GB of storage
 
@@ -127,37 +125,37 @@ By conducting research on existing (and similar) products / solutions in the mar
 
 #### Major Similar Solutions (Competition Analysis)
 
-1. MeetinVR
+**MeetinVR**
 
   MeetinVR is a company that integrates software and hardware to provide an interactive VR space that allows companies to conduct powerful meetings. By using a combination of VR goggles and a pair of handset, it can provide each user with a unique avatar capable of performing realistic movements in the virtual environment. However, it is still under development and not yet open to commercial use [17].
 
-2. Microsoft HoloLens 2
+**Microsoft HoloLens 2**
 
   The new Microsoft HoloLens 2 uses a mixed reality headset that is semi-transparent (similar to wearing a pair of sunglasses), not as immersive compared to the conventional VR goggles. However, it is more powerful in many ways [18].
 
-3. Doghead Simulations' rumii
+**Doghead Simulations' rumii**
 
   This company offers a VR platform suitable for business conferencing and collaboration for training and education. It is capable of paring the user's laptop, mobile phones, desktop with the Oculus VR goggles, making document sharing even more convenient [19].
 
 #### Analysis Criteria
 
-1. Outstanding feature(s).
+**Outstanding feature(s)**
 
   - What makes this company's product unique and stand out from its competition.
 
-2. Hardware and Software requirements:
+**Hardware and Software requirements:**
 
   - In order to use this company's product, which pieces of hardware are needed.
 
-3. Target Users:
+**Target Users:**
 
   - Who is(are) the company's main target user group(s).
 
-4. Price:
+**Price:**
 
   - How much does the product cost?
 
-5. Strengths and Weaknesses.
+**Strengths and Weaknesses.**
 
   - Can our VR Meeting Environment solution address existing flaws in these similar solutions, or further improve on their strengths?
 
@@ -165,41 +163,41 @@ By conducting research on existing (and similar) products / solutions in the mar
 
 We analyze each major similar solution according to the analysis criteria previously specified.
 
-1. MeetinVR
+**MeetinVR**
 
-  Strong points:
+**Strong points:**
 
-  - very interactive, 360 degrees rotation
-  - allows the user to be focused in the VR space
-  - has audio systems built in to the headset, allowing real time communication
-  - a variety of features such as sharing documents display images, videos, personalised avatar, etc.
+  - Very interactive, 360 degrees rotation
+  - Allows the user to be focused in the VR space
+  - Has audio systems built in to the headset, allowing real time communication
+  - A variety of features such as sharing documents display images, videos, personalised avatar, etc.
   - 3D modelling inside their VR space
-  - easy to learn how to use
-  - name tags on each avatar so users know who they are talking to
+  - Easy to learn how to use
+  - Name tags on each avatar so users know who they are talking to
 
-2. Microsoft HoloLens 2
+**Microsoft HoloLens 2**
 
-  Strong points:
+**Strong points**
 
-  - the device recognises the user when he/she puts on the headset and automatically signs them in, makes the user feel more personal, capable of facial recognition
-  - doesn't rely on additional hand held devices to track movements, the headset has cameras that recognises the user' hands and fingers to provide high accuracy movement.
-  - responsive to user's actions, such as clicking a virtual button
+  - The device recognises the user when he/she puts on the headset and automatically signs them in, makes the user feel more personal, capable of facial recognition
+  - Doesn't rely on additional hand held devices to track movements, the headset has cameras that recognises the user' hands and fingers to provide high accuracy movement.
+  - Responsive to user's actions, such as clicking a virtual button
   - Voice recognition that follows spoken commands
-  - display searched results in a manageable way that allow users to modify and select what they want
-  - additional features such as commanding an opened window to follow the user as they walk around
-  - personalised avatars
-  - realtime communication
+  - Display searched results in a manageable way that allow users to modify and select what they want
+  - Additional features such as commanding an opened window to follow the user as they walk around
+  - Personalised avatars
+  - Realtime communication
 
-  Weak points:
+**Weak points:**
 
-  - very expensive
-  - target customers are large enterprises (not suitable for small businesses)
-  - without the use of hand held hardware, certain actions such as "grabbing" may become less responsive
+  - Very expensive
+  - Target customers are large enterprises (not suitable for small businesses)
+  - Without the use of hand held hardware, certain actions such as "grabbing" may become less responsive
   - Not bright enough, difficult for the user to see certain figures in the VR space
 
-3. Doghead Simulations' rumii
+**Doghead Simulations' rumii**
 
-  Strengths:
+**Strong points:**
 
   - Personalized avatar with name tags so users are identifiable.
   - Support 3D modelling in the virtual space.
@@ -233,7 +231,7 @@ Each of the option inevitably bounds us to a programming language, or a particul
 
 #### Options Considered
 
-1. **VrApi**: Oculus Go's native SDK provides VrApi which utilizes Android-based custom graphics rendering engine [23].
+**VrApi**: Oculus Go's native SDK provides VrApi which utilizes Android-based custom graphics rendering engine [23].
 
   - Not bound to external graphics engine.
   - Minimal API.
@@ -244,7 +242,7 @@ Each of the option inevitably bounds us to a programming language, or a particul
   - Difficult to port to another platform.
   - Estimated development cost: High.
 
-2. **Unreal**: Oculus Go provides Unreal engine integration [24].
+**Unreal**: Oculus Go provides Unreal engine integration [24].
 
   - High performance, engine written in C++ and optimized.
   - Good community resources, documentation and examples.
@@ -255,7 +253,7 @@ Each of the option inevitably bounds us to a programming language, or a particul
   - Payment scheme: 5% of revenue.
   - Estimated development cost: Medium.
 
-3. **Unity**: Oculus Go provides Unity engine integration [25].
+**Unity**: Oculus Go provides Unity engine integration [25].
 
   - Mature game engine, optimized.
   - C# is similar to Java, which team members are familiar with.
