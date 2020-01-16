@@ -18,7 +18,7 @@ inclusiveness.
 
 - TODO
 
-## Team Members
+## Project Team Members
 
 - Jieyou Xu (Joe) :envelope: <jieyou.xu.18@ucl.ac.uk>
 - Yingming Luo :envelope: <yingming.luo.18@ucl.ac.uk>
