@@ -113,14 +113,135 @@ presenter; they are referred to as "participants" collectively.
     - Each participant must be able to speak to each other.
     - Each participant must be able to mute himself/herself.
 
-8. TODO
+8. Field of vision for attendees.
+
+    - Must be able to see fellow attendees given the attendee moves his/her view
+      around.
+    - Presenter must be able to see attendees around the table.
+
+9. Basic user interface.
+
+    - UI for meeting creation invitation, joining and leaving.
+    - UI for preset hand gestures.
+
+10. Presentation slide support so presenter can show their slides.
+
+    - Usable document in PDF format.
 
 
 #### Should Have Requirements
 
+- Protected meeting sessions.
+
+    - Meeting creator should be able to password-protect a meeting session and 
+      attendees can only join if they provide the correct password.
+
+- External account management web interface.
+
+    - Users should be able to create an account (possibly with third-party 
+      integrations) for:
+
+        - Email
+        - Facebook
+        - Twitter
+
+    - Users should be able to change preferred name.
+    - Users should be able to change and update their avatar.
+    - Users should be able to opt-in to IBM Watson Personality Insights API [5].
+
+        - If users do opt-in, then they get assigned a color based on API.
+
+    - Users should be able to request and view their account data.
+    - Users should be able to delete their account (data protection law
+      compliance).
+
+- Use of IBM Watson Personality Insights API.
+
+    - Users may choose to opt-in to grant access to their twitter accounts for
+      extracting relevant keywords that best describe the user’s personality,
+      using the WPI application. Results will be analysed to help selecting a
+      colour for the avatar, which best reflect the user’s personality or
+      characteristic. 
+
+- Personalized avatars for users.
+
+    - Rendering system that lets users customise the look of their avatars.
+
+- Movement of user models.
+
+    - Attendee models shall move in a way that is as naturally and smooth as
+      possible, with a selection of pre-designed gestures, such as:
+
+        - Raising hand, catching the presenter’s attention.
+        - Thumbs up, for showing agreement.
+        - Thumbs down for disagreement.
+        - Head shaking for confusion, lack of understanding.
+
+- Zoom in and out.
+
+- Chatbox.
+
+    - Supporting direct messages between meeting participants.
+
+- Flexible presenter / attendee role switching.
+
+    - Allow multiple presenters to take center stage.
+    - Able to switch roles.
+
+- File sharing system.
+
+    - Allow users to share files from laptops / desktops / smart phones.
+    - Upload and download of files.
+
+- Avatars with free movement, capable of changing gestures by detecting the
+  user’s actual body movements.
+
+    - If the user rest his arms on the table in real world, the avatar should be
+      able to reflect this body position in the VR space.
+
+    - Avatars may be able to leave their sits and “walk” around the meeting
+      space.
+
+- Flexible sitting arrangements around the meeting table.
+
+    - Participants are given the ability to choose where they want to sit around
+      the table.
+
+        - e.g. may choose to sit next to their colleagues from the same
+          department for better communication, similar to choosing sits when
+          booking for cinema tickets online.
+
 #### Could Have Requirements
 
+- Realistic rendering of humanoid models of meeting attendees and presenters.
+
+- Selection of fictional background scenes.
+
+- Integration of multiple platforms.
+
+- Other forms of VR meeting environments, such as lecture hall, allowing larger
+  number of users participating at the same time.
+
+- Realistic immersive audio systems. The voice coming from other users may fade
+  away as the distance between them increases and vice versa.
+
+- The presenter’s avatar could be dynamic. As the presenter is turning his/her
+  head across the table, the participant that he faces will also be able to
+  see the front of the presenter. This will let the users know when the
+  presenter is looking at his direction, simulating an “eye-contact” experience
+  when talking “face-to-face”.
+
+- Interactive sketch boards for participants to take notes.
+
 #### Won't Have Requirements
+
+- Complex user interface that’s difficult to manage using only a handheld controller.
+
+- Overly bright colour rendering of models in the VR space which may cause eye irritation to users.
+
+- Inconsistency in design that increases difficulties for the users to get use to the program.
+
+- Poor navigation and operations within the design.
 
 ## References
 
@@ -129,3 +250,4 @@ presenter; they are referred to as "participants" collectively.
 [3] <https://arvr.google.com/daydream/>
 [4] Clegg, Dai; Barker, Richard (1994). *Case Method Fast-Track: A RAD Approach*. 
     Addison-Wesley. ISBN 978-0-201-62432-8.
+[5] https://www.ibm.com/watson/services/personality-insights/
