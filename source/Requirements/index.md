@@ -27,7 +27,7 @@ Our client pointed out that large organizations wish to be able to host
 meetings, presentations and discussions that reflect the presence of a
 community or a team – to better reflect an organization's culture.
 
-## A Proposed Solution
+### A Proposed Solution
 
 To address the issues, the client proposed the direction of utilizing Virtual
 Reality technology to emulate a meeting environment. The emulated meeting 
@@ -242,6 +242,16 @@ presenter; they are referred to as "participants" collectively.
 - Inconsistency in design that increases difficulties for the users to get use to the program.
 
 - Poor navigation and operations within the design.
+
+## Requirements Analysis
+
+### Target User Interviews
+
+TODO
+
+### User Personas
+
+TODO
 
 ## References
 
