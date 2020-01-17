@@ -40,7 +40,7 @@ This command generates the static website at `/public`.
 To clean generated directories and files, run
 
 ```bash
-yarn build
+yarn clean
 ```
 
 ## Deployment
