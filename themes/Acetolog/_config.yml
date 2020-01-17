@@ -1,0 +1,32 @@
+root: index.md
+
+Home: index.md
+
+language: en
+
+disqus:
+  enable: false
+  shortname: your_disqus_short_name
+
+ICPLicense:
+  enable: false
+  content: "Fill IPCLicense"
+
+mta_analytics:
+  enable: false
+  name: mta_analytics_name
+  sid: mta_analytics_sid
+
+baidu_analytics:
+  enable: false
+  id: baidu_analytice_id
+
+google_analytice:
+  enable: false
+  tracking_id: google_tracking_id
+
+node_sass:
+  # outputStyle: nested
+  outputStyle: compressed
+  precision: 5
+  sourceComments: false
