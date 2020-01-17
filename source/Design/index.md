@@ -7,4 +7,4 @@ date: 2020-01-14 17:02:24
 
 ## System Architecture
 
-![info](VRME-Project-Website/source/Design/Image/sysarc.png)
+![info](https://github.com/jieyouxu/VRME-Project-Website/blob/master/source/Design/Image/sysarc.png)
