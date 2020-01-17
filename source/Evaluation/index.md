@@ -11,14 +11,14 @@ date: 2020-01-14 17:02:31
 
 | ID   | Requirements | Priority | State | Contributor |
 | ---- |:------------:|:--------:|:-----:|------------:|
-|1|Initiate,join and leave a meeting session.|`Must`|`In Progress`|`Jieyou`|
-|2|Simple emulated round table meeting.|`Must`|`Done`|`Yingming`,`Wenxin`|
-|3|Attendees must be able to see the presentation slide.|`Must`|`Done`|`Yingming`,`Wenxin`|
-|4|Users must be represented by avatars.|`Must`|`Done`|`Wenxin`|
-|5|Name tags and speaking indication.|`Must`|`In Progress`|`Yingming`,`Wenxin`|
-|6|Real-time communication.|`Must`|`Done`|`Jieyou`|
-|7|Field of vision.|`Must`|`Done`|`Wenxin`|
-|8|Basic VR user interface|`Must`|`In Progress`|`Wenxin`,`Yingming`|
+|1|Initiate,join and leave a meeting session.|Must|In Progress|`Jieyou`|
+|2|Simple emulated round table meeting.|Must|Done|`Yingming`,`Wenxin`|
+|3|Attendees must be able to see the presentation slide.|Must|Done|`Yingming`,`Wenxin`|
+|4|Users must be represented by avatars.|Must|Done|`Wenxin`|
+|5|Name tags and speaking indication.|Must|In Progress|`Yingming`,`Wenxin`|
+|6|Real-time communication.|Must|Done|`Jieyou`|
+|7|Field of vision.|Must|Done|`Wenxin`|
+|8|Basic VR user interface|Must|In Progress|`Wenxin`,`Yingming`|
 
 
 ### Known bugs
