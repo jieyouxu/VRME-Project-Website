@@ -7,4 +7,20 @@ date: 2020-01-14 17:02:24
 
 ## System Architecture
 
-![info](https://github.com/jieyouxu/VRME-Project-Website/blob/master/source/Design/Image/sysarc.png)
+![sysArc diagram](https://github.com/jieyouxu/VRME-Project-Website/blob/master/source/Design/Image/sysarc.png)
+
+
+
+## Site Map
+TODO
+
+## Sequence Diagram
+TODO
+
+
+## Class Diagram
+TODO
+
+
+## Implementation of key functionality
+TODO
