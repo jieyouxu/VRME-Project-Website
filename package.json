@@ -1,0 +1,43 @@
+{
+	"dependencies": {
+		"react": "^16.12.0",
+		"react-dom": "^16.12.0",
+		"react-is": "^16.12.0",
+		"styled-components": "^5.0.0"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.8.3",
+		"@babel/core": "^7.8.3",
+		"@babel/preset-env": "^7.8.3",
+		"@babel/preset-react": "^7.8.3",
+		"babel-loader": "^8.0.6",
+		"css-loader": "^3.4.2",
+		"eslint": "^6.8.0",
+		"eslint-config-airbnb": "^18.0.1",
+		"eslint-config-prettier": "^6.9.0",
+		"eslint-plugin-import": "^2.20.0",
+		"eslint-plugin-jsx-a11y": "^6.2.3",
+		"eslint-plugin-prettier": "^3.1.2",
+		"eslint-plugin-react": "^7.18.0",
+		"eslint-plugin-react-hooks": "^1.7.0",
+		"prettier": "^1.19.1",
+		"prettier-eslint-cli": "^5.0.0",
+		"style-loader": "^1.1.3",
+		"webpack": "^4.41.5",
+		"webpack-cli": "^3.3.10",
+		"webpack-dev-server": "^3.10.1"
+	},
+	"name": "vrme-project-website",
+	"version": "1.0.0",
+	"description": "VRME project website",
+	"main": "index.js",
+	"repository": "git@github.com:jieyouxu/VRME-Project-Website.git",
+	"author": "许杰友 Jieyou Xu (Joe) <jieyouxu@outlook.com>",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"format": "prettier --write \"src/**/*.{js,jsx,css,html}\" && yarn run lint:fix",
+		"lint": "eslint --fix \"src/**/*.{js,jsx}\"",
+		"lint:fix": "yarn run lint --fix"
+	}
+}

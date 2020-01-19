@@ -1,0 +1,44 @@
+{
+	"parserOptions": {
+		"ecmaVersion": 6,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"plugins": [
+		"react",
+		"prettier",
+		"import"
+	],
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"airbnb",
+		"plugin:import/react",
+		"plugin:import/recommended",
+		"prettier",
+		"prettier/react"
+	],
+	"settings": {
+		"import/resolver": {
+			"node": {
+				"extensions": [
+					".js",
+					".jsx"
+				]
+			}
+		}
+	},
+	"rules": {
+		"indent": [
+			"error",
+			"tab"
+		]
+	},
+	"env": {
+		"es6": true,
+		"browser": true,
+		"node": true
+	}
+}
