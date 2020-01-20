@@ -2,7 +2,6 @@ import React from "react";
 
 import {
 	Container,
-	Jumbotron,
 	Row,
 	Col,
 	Card,
@@ -12,40 +11,14 @@ import {
 	ListGroupItem
 } from "reactstrap";
 
+import ProjectTitleJumbotron from "./ProjectTitleJumobotron";
 import TodoAlert from "../../components/todo-alert/TodoAlert";
 
 import "./ProjectSummary.css";
 
 const ProjectSummary = () => (
 	<Container fluid className="project-summary-container">
-		<Jumbotron
-			fluid
-			className="justify-content-center project-summary-jumbotron"
-		>
-			<h1 className="font-weight-bold home-title-font text-center">
-				<span className="initials-text-bg-d0">
-					<span className="theme-c-l-red">V</span>
-					<span className="theme-c-l-orange">R</span>
-					<span className="theme-c-l-yellow">M</span>
-					<span className="theme-c-l-blue">E</span>
-				</span>
-			</h1>
-			<p className="text-center text-wrap project-name-p theme-c-base-l0">
-				<span className="detailed-title-text-bg-d0">
-					<span className="theme-c-l-red">V</span>
-					<span>irtual</span>
-					<span>&nbsp;</span>
-					<span className="theme-c-l-orange">R</span>
-					<span>eality</span>
-					<span>&nbsp;</span>
-					<span className="theme-c-l-yellow">M</span>
-					<span>eeting</span>
-					<span>&nbsp;</span>
-					<span className="theme-c-l-blue">E</span>
-					<span>nvironment</span>
-				</span>
-			</p>
-		</Jumbotron>
+		<ProjectTitleJumbotron />
 		<Container fluid className="theme-bg-base-d0 p-3">
 			<div className="content-skip" />
 			<Container>
