@@ -50,6 +50,7 @@
 		"lint:fix": "yarn run lint --fix",
 		"start": "webpack-dev-server --mode development",
 		"build:dev": "webpack --mode development",
-		"build": "webpack --mode production"
+		"build": "webpack --mode production",
+		"clean": "rm -rf dist"
 	}
 }
