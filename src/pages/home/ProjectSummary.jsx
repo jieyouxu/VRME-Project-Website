@@ -54,7 +54,7 @@ const ProjectSummary = () => (
 					<Col>
 						<Card className="theme-bg-base-d0-soft">
 							<div className="card-header text-center theme-c-l-red">
-								<h5 className="mb-0"><b>A Design Problem</b></h5>
+								<h5 className="mb-0"><b>Abstract</b></h5>
 							</div>
 							<CardBody className="text-center p-3">
 								<blockquote>
@@ -73,7 +73,7 @@ const ProjectSummary = () => (
 					<Col>
 						<Card className="theme-bg-base-d0-soft">
 							<div className="card-header text-center theme-c-l-green">
-								<h5 className="mb-0"><b>A Proposed Solution</b></h5>
+								<h5 className="mb-0"><b>Key Features</b></h5>
 							</div>
 							<CardBody className="p-3 text-justify">
 								<CardText>
