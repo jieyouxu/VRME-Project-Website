@@ -1,37 +1,112 @@
 import React from "react";
 
-import { Container, Jumbotron, Row, Col, NavbarBrand } from 'reactstrap';
+import {
+	Container,
+	Jumbotron,
+	Row,
+	Col,
+	Card,
+	CardTitle,
+	CardBody,
+	CardText,
+	ListGroup
+} from "reactstrap";
 
 import "./ProjectSummary.css";
 
 const ProjectSummary = (props) => (
-	<Container className="project-summary-container">
+	<Container fluid className="project-summary-container">
 		<Jumbotron fluid className="justify-content-center project-summary-jumbotron">
 			<h1 className="font-weight-bold home-title-font text-center">
-				<span className="theme-c-l-red">V</span>
-				<span className="theme-c-l-orange">R</span>
-				<span className="theme-c-l-yellow">M</span>
-				<span className="theme-c-l-blue">E</span>
+				<span className="initials-text-bg-d0">
+					<span className="theme-c-l-red">V</span>
+					<span className="theme-c-l-orange">R</span>
+					<span className="theme-c-l-yellow">M</span>
+					<span className="theme-c-l-blue">E</span>
+				</span>
 			</h1>
-			<p className="text-center text-wrap project-name-p">
-				<span className="theme-c-l-red font-weight-bold">V</span>
-				<span>irtual</span>
-				<span>&nbsp;</span>
-				<span className="theme-c-l-orange font-weight-bold">R</span>
-				<span>eality</span>
-				<span>&nbsp;</span>
-				<span className="theme-c-l-yellow font-weight-bold">M</span>
-				<span>eeting</span>
-				<span>&nbsp;</span>
-				<span className="theme-c-l-blue font-weight-bold">E</span>
-				<span>nvironment</span>
+			<p className="text-center text-wrap project-name-p theme-c-base-l0">
+				<span className="detailed-title-text-bg-d0">
+					<span className="theme-c-l-red">V</span>
+					<span>irtual</span>
+					<span>&nbsp;</span>
+					<span className="theme-c-l-orange">R</span>
+					<span>eality</span>
+					<span>&nbsp;</span>
+					<span className="theme-c-l-yellow">M</span>
+					<span>eeting</span>
+					<span>&nbsp;</span>
+					<span className="theme-c-l-blue">E</span>
+					<span>nvironment</span>
+				</span>
 			</p>
-			<hr data-theme="light" />
-			<Row>
-				<Col></Col>
-				<Col></Col>
-			</Row>
 		</Jumbotron>
+		<Container fluid className="theme-bg-base-d0 p-3">
+			<div className="content-skip" />
+			<Container>
+				<Row className="mb-3">
+					<Col>
+						<Card className="theme-bg-base-d0-soft">
+							<div className="card-header text-center theme-c-l-red">
+								<b>A Design Problem</b>
+							</div>
+							<CardBody className="text-center p-3">
+								<CardText>
+									<blockquote>
+										Users are dissatisfied with existing VR Meeting platforms due
+										to lack of engagement, participation and unreliable cameras.
+										We devise a VR meeting platform emulating a physical meeting
+										environment supporting real-time rendering and communication,
+										allowing participants to see the presenter and as each other.
+										We target inexpensive VR equipment for inclusiveness.
+									</blockquote>
+								</CardText>
+							</CardBody>
+						</Card>
+					</Col>
+				</Row>
+				<Row className="mb-3">
+					<Col>
+						<Card className="theme-bg-base-d0-soft">
+							<div className="card-header text-center theme-c-l-green">
+								<b>A Proposed Solution</b>
+							</div>
+							<CardBody className="p-3 text-justify">
+								<CardText>
+									We propose a solution with the features:
+								</CardText>
+							</CardBody>
+						</Card>
+					</Col>
+				</Row>
+				<Row>
+					<Col>
+						<Card className="theme-bg-base-d0-soft content-card">
+							<CardBody className="text-center">
+								<CardTitle>
+									<h4>Project Partner</h4>
+								</CardTitle>
+								<CardText>John McNamara (IBM)</CardText>
+							</CardBody>
+						</Card>
+					</Col>
+					<Col>
+						<Card className="theme-bg-base-d0-soft content-card">
+							<CardBody className="text-center">
+								<CardTitle>
+									<h4>Project Team Members</h4>
+								</CardTitle>
+								<CardText>
+									<ListGroup>Jieyou Xu (Joe)</ListGroup>
+									<ListGroup>Wenxin Wang</ListGroup>
+									<ListGroup>Yingming Luo</ListGroup>
+								</CardText>
+							</CardBody>
+						</Card>
+					</Col>
+				</Row>
+			</Container>
+		</Container>
 	</Container>
 );
 

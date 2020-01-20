@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import { Navbar, NavbarBrand, NavbarToggler, Container, Row, Col } from "reactstrap";
+import React, { useState } from "react";
+import { Navbar, NavbarBrand, NavbarToggler } from "reactstrap";
 
 import "./NavBar.css";
 

@@ -1,9 +1,8 @@
 import React from "react";
-import NavBar from '../../components/nav-bar/NavBar';
+import NavBar from "../../components/nav-bar/NavBar";
 
-import PageContentContainer
-	from '../../components/page-content-container/PageContentContainer';
-import ProjectSummary from './ProjectSummary';
+import PageContentContainer from "../../components/page-content-container/PageContentContainer";
+import ProjectSummary from "./ProjectSummary";
 
 const Home = () => {
 	return (
