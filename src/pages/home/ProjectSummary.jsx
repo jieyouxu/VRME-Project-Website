@@ -12,11 +12,16 @@ import {
 	ListGroup
 } from "reactstrap";
 
+import TodoAlert from "../../components/todo-alert/TodoAlert";
+
 import "./ProjectSummary.css";
 
-const ProjectSummary = (props) => (
+const ProjectSummary = () => (
 	<Container fluid className="project-summary-container">
-		<Jumbotron fluid className="justify-content-center project-summary-jumbotron">
+		<Jumbotron
+			fluid
+			className="justify-content-center project-summary-jumbotron"
+		>
 			<h1 className="font-weight-bold home-title-font text-center">
 				<span className="initials-text-bg-d0">
 					<span className="theme-c-l-red">V</span>
@@ -51,16 +56,14 @@ const ProjectSummary = (props) => (
 								<b>A Design Problem</b>
 							</div>
 							<CardBody className="text-center p-3">
-								<CardText>
-									<blockquote>
-										Users are dissatisfied with existing VR Meeting platforms due
-										to lack of engagement, participation and unreliable cameras.
-										We devise a VR meeting platform emulating a physical meeting
-										environment supporting real-time rendering and communication,
-										allowing participants to see the presenter and as each other.
-										We target inexpensive VR equipment for inclusiveness.
-									</blockquote>
-								</CardText>
+								<blockquote>
+									Users are dissatisfied with existing VR Meeting platforms due
+									to lack of engagement, participation and unreliable cameras.
+									We devise a VR meeting platform emulating a physical meeting
+									environment supporting real-time rendering and communication,
+									allowing participants to see the presenter and as each other.
+									We target inexpensive VR equipment for inclusiveness.
+								</blockquote>
 							</CardBody>
 						</Card>
 					</Col>
@@ -74,6 +77,8 @@ const ProjectSummary = (props) => (
 							<CardBody className="p-3 text-justify">
 								<CardText>
 									We propose a solution with the features:
+									{/* TODO */}
+									<TodoAlert />
 								</CardText>
 							</CardBody>
 						</Card>

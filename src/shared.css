@@ -185,6 +185,31 @@ hr[data-theme="dark"] {
 	color: #928374;
 }
 
+.theme-bd-d-red {
+	border: 1px solid #cc241d;
+}
+.theme-bd-d-green {
+	border: 1px solid #98971a;
+}
+.theme-bd-d-yellow {
+	border: 1px solid #d79921;
+}
+.theme-bd-d-blue {
+	border: 1px solid #458588;
+}
+.theme-bd-d-purple {
+	border: 1px solid #b16286;
+}
+.theme-bd-d-aqua {
+	border: 1px solid #689d6a;
+}
+.theme-bd-d-orange {
+	border: 1px solid #d65d0e;
+}
+.theme-bd-d-gray {
+	border: 1px solid #928374;
+}
+
 .theme-bg-l-red {
 	background: #fb4934;
 }
@@ -233,4 +258,29 @@ hr[data-theme="dark"] {
 }
 .theme-c-l-gray {
 	color: #a89984;
+}
+
+.theme-bd-l-red {
+	border: 1px solid #fb4934;
+}
+.theme-bd-l-green {
+	border: 1px solid #b8bb26;
+}
+.theme-bd-l-yellow {
+	border: 1px solid #fabd2f;
+}
+.theme-bd-l-blue {
+	border: 1px solid #83a598;
+}
+.theme-bd-l-purple {
+	border: 1px solid #d3869b;
+}
+.theme-bd-l-aqua {
+	border: 1px solid #8ec07c;
+}
+.theme-bd-l-orange {
+	border: 1px solid #f38019;
+}
+.theme-bd-l-gray {
+	border: 1px solid #a89984;
 }
