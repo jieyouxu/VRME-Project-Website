@@ -8,7 +8,8 @@ Team 11:
 
 ## Install Dependencies
 
-This project assumes that you have `node` (v13) + `yarn` installed.
+This project assumes that you have `node` (v13) + `yarn` installed. This
+project also assumes a Unix/MacOS OS.
 
 We use [yarn](https://yarnpkg.com/lang/en/) as the package manager for 
 `node.js`.
@@ -23,7 +24,7 @@ Supports file watch mode (you can edit the markdown sources and the server will
 automatically reload on changes observed).
 
 ```bash
-yarn server
+yarn start
 ```
 
 ## Build and Generate Static Site
@@ -35,9 +36,11 @@ to be served statically.
 yarn build
 ```
 
-This command generates the static website at `/public`.
+The web page can be opened at `public/index.html`.
 
-To clean generated directories and files, run
+## Clean
+
+To clean the generated `dist` directory, run
 
 ```bash
 yarn clean
