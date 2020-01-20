@@ -12,7 +12,7 @@ import {
 } from "reactstrap";
 
 import ProjectTitleJumbotron from "./ProjectTitleJumobotron";
-import TodoAlert from "../../components/todo-alert/TodoAlert";
+import TodoAlert from "../../../components/todo-alert/TodoAlert";
 
 import "./ProjectSummary.css";
 
