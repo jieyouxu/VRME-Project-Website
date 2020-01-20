@@ -1,0 +1,29 @@
+.nav-bar {
+	height: 6rem;
+}
+
+@media screen and (max-width: 720px) {
+	.nav-bar {
+		height: 4rem;
+	}
+}
+
+.nav-bar-skip {
+	height: 6rem;
+}
+
+@media screen and (max-width: 720px) {
+	.nav-bar-skip {
+		height: 4rem;
+	}
+}
+
+.nav-bar-brand {
+	font-size: 2rem !important;
+}
+
+@media screen and (max-width: 720px) {
+	.nav-bar-brand {
+		font-size: 1.5rem !important;
+	}
+}
