@@ -9,7 +9,8 @@ import {
 	CardTitle,
 	CardBody,
 	CardText,
-	ListGroup
+	ListGroup,
+	ListGroupItem
 } from "reactstrap";
 
 import TodoAlert from "../../components/todo-alert/TodoAlert";
@@ -77,35 +78,37 @@ const ProjectSummary = () => (
 							<CardBody className="p-3 text-justify">
 								<CardText>
 									We propose a solution with the features:
-									{/* TODO */}
-									<TodoAlert />
 								</CardText>
+								{/* TODO */}
+								<TodoAlert />
 							</CardBody>
 						</Card>
 					</Col>
 				</Row>
 				<Row>
 					<Col>
-						<Card className="theme-bg-base-d0-soft content-card">
+						<Card className="theme-bg-base-d0-soft">
 							<CardBody className="text-center">
 								<CardTitle>
 									<h4>Project Partner</h4>
 								</CardTitle>
-								<CardText>John McNamara (IBM)</CardText>
+								<ListGroup>
+									<ListGroupItem className="theme-bg-base-d1">John McNamara (IBM)</ListGroupItem>
+								</ListGroup>
 							</CardBody>
 						</Card>
 					</Col>
 					<Col>
-						<Card className="theme-bg-base-d0-soft content-card">
+						<Card className="theme-bg-base-d0-soft">
 							<CardBody className="text-center">
 								<CardTitle>
 									<h4>Project Team Members</h4>
 								</CardTitle>
-								<CardText>
-									<ListGroup>Jieyou Xu (Joe)</ListGroup>
-									<ListGroup>Wenxin Wang</ListGroup>
-									<ListGroup>Yingming Luo</ListGroup>
-								</CardText>
+								<ListGroup>
+									<ListGroupItem className="theme-bg-base-d1">Jieyou Xu (Joe)</ListGroupItem>
+									<ListGroupItem className="theme-bg-base-d1">Wenxin Wang</ListGroupItem>
+									<ListGroupItem className="theme-bg-base-d1">Yingming Luo</ListGroupItem>
+								</ListGroup>
 							</CardBody>
 						</Card>
 					</Col>

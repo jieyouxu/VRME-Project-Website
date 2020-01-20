@@ -70,16 +70,6 @@ body {
 	}
 }
 
-.content-card {
-	height: 10rem;
-}
-
-@media screen and (max-width: 720px) {
-	.content-card {
-		height: 13rem;
-	}
-}
-
 .content-skip {
 	height: 3rem;
 }
