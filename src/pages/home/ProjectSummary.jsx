@@ -88,10 +88,10 @@ const ProjectSummary = () => (
 				<Row>
 					<Col>
 						<Card className="theme-bg-base-d0-soft">
+							<div className="card-header text-center theme-c-l-blue">
+								<b>Project Partner</b>
+							</div>
 							<CardBody className="text-center">
-								<CardTitle>
-									<h4>Project Partner</h4>
-								</CardTitle>
 								<ListGroup>
 									<ListGroupItem className="theme-bg-base-d1">John McNamara (IBM)</ListGroupItem>
 								</ListGroup>
@@ -100,10 +100,10 @@ const ProjectSummary = () => (
 					</Col>
 					<Col>
 						<Card className="theme-bg-base-d0-soft">
+							<div className="card-header text-center theme-c-l-aqua">
+								<b>Project Team Members</b>
+							</div>
 							<CardBody className="text-center">
-								<CardTitle>
-									<h4>Project Team Members</h4>
-								</CardTitle>
 								<ListGroup>
 									<ListGroupItem className="theme-bg-base-d1">Jieyou Xu (Joe)</ListGroupItem>
 									<ListGroupItem className="theme-bg-base-d1">Wenxin Wang</ListGroupItem>
