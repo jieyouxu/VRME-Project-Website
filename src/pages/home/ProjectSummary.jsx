@@ -100,7 +100,7 @@ const ProjectSummary = () => (
 					</Col>
 					<Col>
 						<Card className="theme-bg-base-d0-soft">
-							<div className="card-header text-center theme-c-l-aqua">
+							<div className="card-header text-center theme-c-l-yellow">
 								<h5 className="mb-0"><b>Project Team Members</b></h5>
 							</div>
 							<CardBody className="text-center">
