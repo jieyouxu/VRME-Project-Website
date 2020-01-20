@@ -52,8 +52,12 @@
 		"start": "webpack-dev-server --mode development",
 		"build:dev": "webpack --mode development",
 		"build": "webpack --mode production",
-		"clean": "rm -rf dist",
-		"precommit": "yarn format",
-		"prepush": "yarn format"
+		"clean": "rm -rf dist"
+	},
+	"husky": {
+		"hooks": {
+		"pre-commit": "yarn format",
+			"pre-push": "yarn format"
+		}
 	}
 }
