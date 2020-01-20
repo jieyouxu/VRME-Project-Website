@@ -54,7 +54,7 @@ const ProjectSummary = () => (
 					<Col>
 						<Card className="theme-bg-base-d0-soft">
 							<div className="card-header text-center theme-c-l-red">
-								<b>A Design Problem</b>
+								<h5 className="mb-0"><b>A Design Problem</b></h5>
 							</div>
 							<CardBody className="text-center p-3">
 								<blockquote>
@@ -73,7 +73,7 @@ const ProjectSummary = () => (
 					<Col>
 						<Card className="theme-bg-base-d0-soft">
 							<div className="card-header text-center theme-c-l-green">
-								<b>A Proposed Solution</b>
+								<h5 className="mb-0"><b>A Proposed Solution</b></h5>
 							</div>
 							<CardBody className="p-3 text-justify">
 								<CardText>
@@ -89,7 +89,7 @@ const ProjectSummary = () => (
 					<Col>
 						<Card className="theme-bg-base-d0-soft">
 							<div className="card-header text-center theme-c-l-blue">
-								<b>Project Partner</b>
+								<h5 className="mb-0"><b>Project Partner</b></h5>
 							</div>
 							<CardBody className="text-center">
 								<ListGroup>
@@ -101,7 +101,7 @@ const ProjectSummary = () => (
 					<Col>
 						<Card className="theme-bg-base-d0-soft">
 							<div className="card-header text-center theme-c-l-aqua">
-								<b>Project Team Members</b>
+								<h5 className="mb-0"><b>Project Team Members</b></h5>
 							</div>
 							<CardBody className="text-center">
 								<ListGroup>
