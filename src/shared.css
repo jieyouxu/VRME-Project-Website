@@ -57,6 +57,10 @@ hr[data-theme="dark"] {
 	padding-right: 0;
 }
 
+body {
+	background: #282828;
+}
+
 /* Gruvbox color scheme */
 
 .theme-bg-base-d0 {

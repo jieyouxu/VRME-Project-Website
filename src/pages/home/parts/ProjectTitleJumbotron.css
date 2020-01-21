@@ -1,0 +1,31 @@
+.project-title-jumbotron {
+	height: 20rem;
+}
+
+.color-gradient-bg {
+	background: linear-gradient(
+		-45deg,
+		#d3869b,
+		#fb4934,
+		#f38019,
+		#fabd2f,
+		#b8bb26,
+		#83a598,
+		#8ec07c
+	);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	margin-bottom: 0 !important;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0 50%;
+	}
+}

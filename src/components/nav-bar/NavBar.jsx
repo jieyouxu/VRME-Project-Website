@@ -1,5 +1,13 @@
 import React, { useState } from "react";
-import { Navbar, NavbarBrand, NavbarToggler } from "reactstrap";
+import {
+	Navbar,
+	NavbarBrand,
+	NavbarToggler,
+	Collapse,
+	Nav,
+	NavItem
+} from "reactstrap";
+import { Link } from "react-router-dom";
 
 import "./NavBar.css";
 
@@ -21,6 +29,20 @@ const NavBar = () => {
 					<span className="theme-c-l-blue">E</span>
 				</NavbarBrand>
 				<NavbarToggler onClick={toggleNav} className="nav-bar-toggler" />
+				<Collapse isOpen={isOpen} navbar>
+					<Nav className="mr-auto" navbar>
+						<NavItem>
+							<Link to="/" className="nav-link">
+								Home
+							</Link>
+						</NavItem>
+						<NavItem>
+							<Link to="/requirements" className="nav-link">
+								Requirements
+							</Link>
+						</NavItem>
+					</Nav>
+				</Collapse>
 			</Navbar>
 			<div className="nav-bar-skip" />
 		</>
