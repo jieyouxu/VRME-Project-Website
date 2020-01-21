@@ -41,6 +41,11 @@ const NavBar = () => {
 								Requirements
 							</Link>
 						</NavItem>
+						<NavItem>
+							<Link to="/research" className="nav-link">
+								Research
+							</Link>
+						</NavItem>
 					</Nav>
 				</Collapse>
 			</Navbar>

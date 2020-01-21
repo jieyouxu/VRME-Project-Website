@@ -27,3 +27,12 @@
 		font-size: 1.5rem !important;
 	}
 }
+
+.navbar-nav {
+	background: #1d2021;
+}
+
+.navbar-collapse {
+	background: #1d2021;
+	padding: 1rem;
+}
