@@ -56,6 +56,11 @@ const NavBar = () => {
 								Prototype
 							</Link>
 						</NavItem>
+						<NavItem>
+							<Link to="/future-plan" className="nav-link">
+								Future Plan
+							</Link>
+						</NavItem>
 					</Nav>
 				</Collapse>
 			</Navbar>
