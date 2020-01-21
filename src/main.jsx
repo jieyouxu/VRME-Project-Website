@@ -9,7 +9,7 @@ import Requirements from "./pages/requirements";
 import Research from "./pages/research";
 import HCI from "./pages/hci";
 import Prototype from "./pages/prototype";
-import Achievement from "./pages/achievement"
+import Achievement from "./pages/achievement";
 import FuturePlan from "./pages/future-plan";
 
 import "bootstrap/dist/css/bootstrap.min.css";
