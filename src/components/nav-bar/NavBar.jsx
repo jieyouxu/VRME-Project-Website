@@ -51,6 +51,11 @@ const NavBar = () => {
 								Human-Computer Interaction
 							</Link>
 						</NavItem>
+						<NavItem>
+							<Link to="/prototype" className="nav-link">
+								Prototype
+							</Link>
+						</NavItem>
 					</Nav>
 				</Collapse>
 			</Navbar>
