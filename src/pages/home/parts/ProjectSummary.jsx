@@ -11,7 +11,7 @@ import {
 	ListGroupItem
 } from "reactstrap";
 
-import ProjectTitleJumbotron from "./ProjectTitleJumobotron";
+import ProjectTitleJumbotron from "./ProjectTitleJumbotron";
 import TodoAlert from "../../../components/todo-alert/TodoAlert";
 
 import "./ProjectSummary.css";
