@@ -46,6 +46,11 @@ const NavBar = () => {
 								Research
 							</Link>
 						</NavItem>
+						<NavItem>
+							<Link to="/hci" className="nav-link">
+								Human-Computer Interaction
+							</Link>
+						</NavItem>
 					</Nav>
 				</Collapse>
 			</Navbar>
