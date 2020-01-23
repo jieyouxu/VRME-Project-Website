@@ -9,8 +9,10 @@ const PageTitle = ({ title, className }) => (
 	<>
 		<div className="content-skip" />
 		<Container className="page-title-container">
-			<h1 className={`${className ?? ""} text-center page-title-heading`}>
-				{title}
+			<h1 className={`text-center ${className}`}>
+				<span className="page-title-heading page-title-heading-span h1">
+					<u>{title}</u>
+				</span>
 			</h1>
 		</Container>
 	</>
@@ -22,7 +24,7 @@ PageTitle.propTypes = {
 };
 
 PageTitle.defaultProps = {
-	className: "h1"
+	className: ""
 };
 
 export default PageTitle;

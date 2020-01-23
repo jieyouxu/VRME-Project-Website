@@ -8,6 +8,7 @@ import ProjectBackground from "./parts/ProjectBackground";
 import PageReferences from "./parts/PageReferences";
 import ProposedSolution from "./parts/ProposedSolution";
 import RequirementsGathering from "./parts/RequirementsGathering";
+import MoSCoWList from "./parts/MoSCowList";
 
 const Requirements = () => (
 	<PageContentContainer>
@@ -16,6 +17,7 @@ const Requirements = () => (
 			<ProjectBackground />
 			<ProposedSolution />
 			<RequirementsGathering />
+			<MoSCoWList />
 			<PageReferences />
 		</InnerContentContainer>
 	</PageContentContainer>

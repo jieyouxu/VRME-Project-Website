@@ -32,7 +32,7 @@ const ProjectBackground = () => (
 			</blockquote>
 			<p>
 				Current remote meeting solutions, such as
-				<a href="#ref-1">Skype [1]</a>, face the problems including but not
+				<a href="#ref-1"> Skype [1]</a>, face the problems including but not
 				limited to:
 			</p>
 			<CardDeck className="mb-2 text-center">
