@@ -5,7 +5,7 @@ import InnerContentContainer from "../../components/inner-content-container/Inne
 import PageTitle from "../../components/page-title/PageTitle";
 
 import ProjectBackground from "./parts/ProjectBackground";
-import PageReferences from './parts/PageReferences';
+import PageReferences from "./parts/PageReferences";
 
 const Requirements = () => (
 	<PageContentContainer>
