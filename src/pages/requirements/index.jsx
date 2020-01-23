@@ -1,11 +1,23 @@
 import React from "react";
 
-import ScrollableAnchor from 'react-scrollable-anchor';
+import ScrollableAnchor from "react-scrollable-anchor";
 
-import { Card, CardBody, CardText, CardDeck, CardHeader, CardImg } from "reactstrap";
+import {
+	Card,
+	CardBody,
+	CardText,
+	CardDeck,
+	CardHeader,
+	CardImg
+} from "reactstrap";
 
 import { IconContext } from "react-icons";
-import { AiOutlineTeam, AiOutlineHome, AiOutlineInteraction, AiOutlineCamera } from "react-icons/ai";
+import {
+	AiOutlineTeam,
+	AiOutlineHome,
+	AiOutlineInteraction,
+	AiOutlineCamera
+} from "react-icons/ai";
 
 import PageContentContainer from "../../components/page-content-container/PageContentContainer";
 import InnerContentContainer from "../../components/inner-content-container/InnerContentContainer";
@@ -38,7 +50,7 @@ const Requirements = () => (
 						<a href="#ref-1">Skype [1]</a>, face the problems including but not
 						limited to:
 					</p>
-					<CardDeck className="mb-2 text-center" >
+					<CardDeck className="mb-2 text-center">
 						<Card outline className="theme-bd-d-red">
 							<CardHeader className="font-weight-bold theme-c-d-red">
 								Problem
