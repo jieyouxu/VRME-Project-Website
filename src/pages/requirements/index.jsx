@@ -6,12 +6,14 @@ import PageTitle from "../../components/page-title/PageTitle";
 
 import ProjectBackground from "./parts/ProjectBackground";
 import PageReferences from "./parts/PageReferences";
+import ProposedSolution from "./parts/ProposedSolution";
 
 const Requirements = () => (
 	<PageContentContainer>
 		<PageTitle title="Requirements" />
 		<InnerContentContainer>
 			<ProjectBackground />
+			<ProposedSolution />
 			<PageReferences />
 		</InnerContentContainer>
 	</PageContentContainer>
