@@ -1,14 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import { Container } from "reactstrap";
+
 import "./PageTitle.css";
 
 const PageTitle = ({ title, className }) => (
 	<>
 		<div className="content-skip" />
-		<h1 className={`${className || ""} text-center page-title-heading`}>
-			{title}
-		</h1>
+		<Container className="page-title-container">
+			<h1 className={`${className ?? ""} text-center page-title-heading`}>
+				{title}
+			</h1>
+		</Container>
 	</>
 );
 

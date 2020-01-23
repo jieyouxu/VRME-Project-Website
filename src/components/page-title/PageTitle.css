@@ -1,7 +1,19 @@
 .page-title-heading {
+	font-size: 4rem !important;
+	font-weight: lighter !important;
+}
+
+.page-title-container {
+	padding: 0 2rem !important;
 }
 
 @media screen and (max-width: 720px) {
 	.page-title-heading {
+		font-size: 2rem !important;
+		font-weight: lighter !important;
+	}
+
+	.page-title-container {
+		padding: 1rem 2rem 0 2rem !important;
 	}
 }
