@@ -34,10 +34,15 @@ a:visited {
 	color: #b16286;
 }
 
-blockquote {
+blockquote,
+.blockquote {
 	border-left: 1px solid #bdae93;
 	margin: 0.5em 1em;
-	padding: 1em 1em;
+	padding: 0.5em 1em;
+}
+
+.blockquote {
+	font-size: 1rem;
 }
 
 hr[data-theme="light"] {
@@ -57,8 +62,81 @@ hr[data-theme="dark"] {
 	padding-right: 0;
 }
 
+.card {
+	background: #1d2021;
+}
+
 body {
 	background: #282828;
+}
+
+h1,
+.h1 {
+	font-size: 4rem !important;
+}
+
+h2,
+.h2 {
+	font-size: 2rem !important;
+}
+
+h3,
+.h3 {
+	font-size: 1.5rem !important;
+}
+
+h4,
+.h4 {
+	font-size: 1.3rem !important;
+}
+
+h5,
+.h5 {
+	font-size: 1.2rem !important;
+}
+
+h6,
+.h6 {
+	font-size: 1.1rem !important;
+}
+
+@media screen and (max-width: 720px) {
+	h1,
+	.h1 {
+		font-size: 2rem !important;
+	}
+
+	h2,
+	.h2 {
+		font-size: 1.5rem !important;
+	}
+
+	h3,
+	.h3 {
+		font-size: 1.3rem !important;
+	}
+
+	h4,
+	.h4 {
+		font-size: 1.2rem !important;
+	}
+
+	h5,
+	.h5 {
+		font-size: 1.15rem !important;
+	}
+
+	h6,
+	.h6 {
+		font-size: 1.1rem !important;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	blockquote > ul,
+	blockquote > ol {
+		padding-left: 0.5rem;
+	}
 }
 
 /* Gruvbox color scheme */

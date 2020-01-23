@@ -3,7 +3,8 @@ const webpack = require("webpack");
 
 module.exports = {
 	entry: "./src/main.jsx",
-	mode: "development",
+	mode: "production",
+	devtool: "source-map",
 	module: {
 		rules: [
 			{
@@ -14,22 +15,45 @@ module.exports = {
 			},
 			{
 				test: /\.css$/,
-				use: ["style-loader", "css-loader"]
-			}
+				use: ["style-loader", "css-loader"],
+				sideEffects: true
+			},
+			{
+				test: /\.(png|svg|jpg|gif)$/,
+	         	use: ["file-loader"],
+	      	}
 		]
 	},
 	resolve: { extensions: ["*", ".js", ".jsx"] },
 	output: {
 		path: path.resolve(__dirname, "dist/"),
 		publicPath: "/dist/",
-		filename: "bundle.js"
+		filename: "[name].bundle.js"
 	},
 	devServer: {
-		contentBase: path.join(__dirname, "public/"),
+		contentBase: __dirname,
 		port: 3000,
 		publicPath: "http://localhost:3000/dist/",
 		hotOnly: true,
 		historyApiFallback: true
 	},
-	plugins: [new webpack.HotModuleReplacementPlugin()]
+	plugins: [
+		new webpack.HotModuleReplacementPlugin(),
+		new webpack.DefinePlugin({
+			'process.env': {
+				'NODE_ENV': JSON.stringify('production')
+			}
+		})
+	],
+	optimization: {
+		concatenateModules: true,
+		mergeDuplicateChunks: true,
+		minimize: true,
+		nodeEnv: "production",
+		providedExports: true,
+		removeAvailableModules: true,
+		removeEmptyChunks: true,
+		sideEffects: true,
+		usedExports: true
+	}
 };

@@ -1,0 +1,18 @@
+.page-title-heading {
+	font-weight: lighter !important;
+}
+
+.page-title-container {
+	padding: 0 2rem !important;
+}
+
+.page-title-heading-span {
+	background: #1d2021;
+	padding: 0.5rem 2rem;
+}
+
+@media screen and (max-width: 720px) {
+	.page-title-container {
+		padding: 1rem 2rem 0 2rem !important;
+	}
+}

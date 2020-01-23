@@ -61,6 +61,11 @@ const NavBar = () => {
 								Future Plan
 							</Link>
 						</NavItem>
+						<NavItem>
+							<Link to="/appendix" className="nav-link">
+								Appendix
+							</Link>
+						</NavItem>
 					</Nav>
 				</Collapse>
 			</Navbar>
