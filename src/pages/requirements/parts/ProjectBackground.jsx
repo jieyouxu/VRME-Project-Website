@@ -19,7 +19,6 @@ import {
 import ContentCard from "../../../components/content-card/ContentCard";
 import ContentCardHeader from "../../../components/content-card-header/ContentCardHeader";
 
-
 const ProjectBackground = () => (
 	<ContentCard>
 		<ContentCardHeader title="Project Background" className="theme-c-l-blue" />
