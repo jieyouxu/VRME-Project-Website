@@ -1,12 +1,12 @@
-ol {
+.ref-ol {
 	counter-reset: list;
 }
 
-ol > li {
+.ref-ol > li {
 	list-style: none;
 }
 
-ol > li:before {
+.ref-ol > li:before {
 	content: "[" counter(list) "] ";
 	counter-increment: list;
 }

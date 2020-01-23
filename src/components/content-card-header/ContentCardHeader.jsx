@@ -4,9 +4,7 @@ import PropTypes from "prop-types";
 import { CardHeader } from "reactstrap";
 
 const ContentCardHeader = ({ title, className }) => (
-	<CardHeader className={`font-weight-lighter text-center h2 ${className}`}>
-		{title}
-	</CardHeader>
+	<CardHeader className={`text-center h2 ${className}`}>{title}</CardHeader>
 );
 
 ContentCardHeader.propTypes = {

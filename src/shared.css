@@ -132,6 +132,13 @@ h6,
 	}
 }
 
+@media screen and (max-width: 720px) {
+	blockquote > ul,
+	blockquote > ol {
+		padding-left: 0.5rem;
+	}
+}
+
 /* Gruvbox color scheme */
 
 .theme-bg-base-d0 {
