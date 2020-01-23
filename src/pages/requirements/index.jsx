@@ -7,6 +7,7 @@ import PageTitle from "../../components/page-title/PageTitle";
 import ProjectBackground from "./parts/ProjectBackground";
 import PageReferences from "./parts/PageReferences";
 import ProposedSolution from "./parts/ProposedSolution";
+import RequirementsGathering from "./parts/RequirementsGathering";
 
 const Requirements = () => (
 	<PageContentContainer>
@@ -14,6 +15,7 @@ const Requirements = () => (
 		<InnerContentContainer>
 			<ProjectBackground />
 			<ProposedSolution />
+			<RequirementsGathering />
 			<PageReferences />
 		</InnerContentContainer>
 	</PageContentContainer>
