@@ -10,7 +10,7 @@ import ProjectAbstract from "./parts/ProjectAbstract";
 import KeyFeatures from "./parts/KeyFeatures";
 import ProjectPartner from "./parts/ProjectPartner";
 import ProjectTeam from "./parts/ProjectTeam";
-import ProjectVideo from './parts/ProjectVideo';
+import ProjectVideo from "./parts/ProjectVideo";
 
 import "./index.css";
 
