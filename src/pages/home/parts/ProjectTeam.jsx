@@ -4,13 +4,15 @@ import { Card, CardBody, CardText } from "reactstrap";
 
 import { AiOutlineMail } from "react-icons/ai";
 
+import ContentCardHeader from "../../../components/content-card-header/ContentCardHeader";
+import ContentCard from "../../../components/content-card/ContentCard";
+
 const ProjectTeam = () => (
-	<Card className="theme-bg-base-d0-soft">
-		<div className="card-header text-center theme-c-l-yellow">
-			<h5 className="mb-0">
-				<b>Project Team Members</b>
-			</h5>
-		</div>
+	<ContentCard className="theme-bg-base-d0-soft">
+		<ContentCardHeader
+			title="Project Team Members"
+			className="theme-c-l-yellow"
+		/>
 		<CardBody className="text-center">
 			<Card body className="theme-bd-l-yellow mb-2">
 				<CardText>
@@ -55,7 +57,7 @@ const ProjectTeam = () => (
 				</CardText>
 			</Card>
 		</CardBody>
-	</Card>
+	</ContentCard>
 );
 
 export default ProjectTeam;

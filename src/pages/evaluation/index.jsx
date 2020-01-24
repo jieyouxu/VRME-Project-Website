@@ -8,7 +8,7 @@ import Achievements from "./parts/Achievements";
 import MoSCoWFeaturesProgress from "./parts/MoSCoWFeatures";
 import IndividualContributions from "./parts/IndividualContributions";
 import FuturePlans from "./parts/FuturePlans";
-import CriticalEvaluation from './parts/CriticalEvaluation';
+import CriticalEvaluation from "./parts/CriticalEvaluation";
 
 const Evaluation = () => (
 	<PageContentContainer>
