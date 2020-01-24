@@ -10,6 +10,7 @@ import ProposedSolution from "./parts/ProposedSolution";
 import RequirementsGathering from "./parts/RequirementsGathering";
 import MoSCoWList from "./parts/MoSCowList";
 import RequirementAnalysis from "./parts/RequirementsAnalysis";
+import UseCases from "./parts/UseCases";
 
 const Requirements = () => (
 	<PageContentContainer>
@@ -20,6 +21,7 @@ const Requirements = () => (
 			<RequirementsGathering />
 			<MoSCoWList />
 			<RequirementAnalysis />
+			<UseCases />
 			<PageReferences />
 		</InnerContentContainer>
 	</PageContentContainer>
