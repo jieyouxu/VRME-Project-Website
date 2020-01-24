@@ -22,7 +22,9 @@ const ProjectTeam = () => (
 					<AiOutlineMail />{" "}
 					<a href="mailto:jieyou.xu.18@ucl.ac.uk">jieyou.xu.18@ucl.ac.uk</a>
 				</CardText>
-				<CardText>Role: TODO</CardText>
+				<CardText>
+					Roles: Researcher, Back-end Developer, Website Editor
+				</CardText>
 			</Card>
 			<Card body className="theme-bd-l-yellow mb-2">
 				<CardText>
@@ -36,7 +38,7 @@ const ProjectTeam = () => (
 						yingming.luo.18@ucl.ac.uk
 					</a>
 				</CardText>
-				<CardText>Role: TODO</CardText>
+				<CardText>Roles: Tester, Front-end Developer</CardText>
 			</Card>
 			<Card body className="theme-bd-l-yellow">
 				<CardText>
@@ -48,7 +50,9 @@ const ProjectTeam = () => (
 					<AiOutlineMail />{" "}
 					<a href="mailto:wenxin.wang.18@ucl.ac.uk">wenxin.wang.18@ucl.ac.uk</a>
 				</CardText>
-				<CardText>Role: TODO</CardText>
+				<CardText>
+					Roles: UI Designer, Front-end Developer, Report Editor
+				</CardText>
 			</Card>
 		</CardBody>
 	</Card>
