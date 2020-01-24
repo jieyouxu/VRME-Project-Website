@@ -7,7 +7,7 @@ const ReferenceListGroup = ({ children }) => (
 	<ListGroup>
 		{Array.isArray(children)
 			? children.map(c => (
-					<ListGroupItem className="theme-bg-base-d0-soft">{c}</ListGroupItem>
+				<ListGroupItem className="theme-bg-base-d0-soft">{c}</ListGroupItem>
 			  ))
 			: children}
 	</ListGroup>
