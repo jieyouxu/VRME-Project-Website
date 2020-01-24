@@ -6,6 +6,7 @@ import InnerContentContainer from "../../components/inner-content-container/Inne
 import TargetPlatformResearch from "./parts/TargetPlatformResearch";
 import PageReferences from "./parts/PageReferences";
 import AdditionalOculusGoResearch from "./parts/AdditionalOculusGoResearch";
+import RelatedSolutionsResearch from "./parts/RelatedSolutionsResearch";
 
 const Research = () => (
 	<PageContentContainer>
@@ -13,6 +14,7 @@ const Research = () => (
 		<InnerContentContainer>
 			<TargetPlatformResearch />
 			<AdditionalOculusGoResearch />
+			<RelatedSolutionsResearch />
 			<PageReferences />
 		</InnerContentContainer>
 	</PageContentContainer>
