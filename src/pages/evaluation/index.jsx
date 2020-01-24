@@ -5,12 +5,14 @@ import PageTitle from "../../components/page-title/PageTitle";
 import InnerPageContentContainer from "../../components/inner-page-content-container/InnerPageContentContainer";
 
 import Achievements from "./parts/Achievements";
+import MoSCoWFeaturesProgress from "./parts/MoSCoWFeatures";
 
 const Evaluation = () => (
 	<PageContentContainer>
 		<PageTitle title="Evaluation" />
 		<InnerPageContentContainer>
 			<Achievements />
+			<MoSCoWFeaturesProgress />
 		</InnerPageContentContainer>
 	</PageContentContainer>
 );
