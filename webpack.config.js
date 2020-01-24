@@ -1,6 +1,8 @@
 const path = require("path");
 const webpack = require("webpack");
 
+const isProduction = () => process.env.NODE_ENV === 'production';
+
 module.exports = {
 	entry: "./src/main.jsx",
 	mode: "development",
@@ -45,7 +47,7 @@ module.exports = {
 			}
 		})
 	],
-	optimization: {
+	optimization: isProduction() ? {
 		concatenateModules: true,
 		mergeDuplicateChunks: true,
 		minimize: true,
@@ -55,5 +57,5 @@ module.exports = {
 		removeEmptyChunks: true,
 		sideEffects: true,
 		usedExports: true
-	}
+	}: {}
 };
