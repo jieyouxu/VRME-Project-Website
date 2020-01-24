@@ -5,16 +5,16 @@ import { Container } from "reactstrap";
 
 import "./InnerContentContainer.css";
 
-const InnerContentContainer = ({ children }) => (
+const InnerPageContentContainer = ({ children }) => (
 	<Container className="inner-content-container">{children}</Container>
 );
 
-InnerContentContainer.propTypes = {
+InnerPageContentContainer.propTypes = {
 	children: PropTypes.node
 };
 
-InnerContentContainer.defaultProps = {
+InnerPageContentContainer.defaultProps = {
 	children: null
 };
 
-export default InnerContentContainer;
+export default InnerPageContentContainer;

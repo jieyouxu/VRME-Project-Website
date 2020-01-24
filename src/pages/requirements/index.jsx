@@ -1,7 +1,7 @@
 import React from "react";
 
 import PageContentContainer from "../../components/page-content-container/PageContentContainer";
-import InnerContentContainer from "../../components/inner-content-container/InnerContentContainer";
+import InnerPageContentContainer from "../../components/inner-page-content-container/InnerPageContentContainer";
 import PageTitle from "../../components/page-title/PageTitle";
 
 import ProjectBackground from "./parts/ProjectBackground";
@@ -15,7 +15,7 @@ import UseCases from "./parts/UseCases";
 const Requirements = () => (
 	<PageContentContainer>
 		<PageTitle title="Requirements" />
-		<InnerContentContainer>
+		<InnerPageContentContainer>
 			<ProjectBackground />
 			<ProposedSolution />
 			<RequirementsGathering />
@@ -23,7 +23,7 @@ const Requirements = () => (
 			<RequirementAnalysis />
 			<UseCases />
 			<PageReferences />
-		</InnerContentContainer>
+		</InnerPageContentContainer>
 	</PageContentContainer>
 );
 

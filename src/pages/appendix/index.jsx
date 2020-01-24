@@ -2,16 +2,16 @@ import React from "react";
 
 import PageContentContainer from "../../components/page-content-container/PageContentContainer";
 import PageTitle from "../../components/page-title/PageTitle";
-import InnerContentContainer from "../../components/inner-content-container/InnerContentContainer";
+import InnerPageContentContainer from "../../components/inner-page-content-container/InnerPageContentContainer";
 
 import BiweeklyReports from "./parts/BiweeklyReports";
 
 const Appendix = () => (
 	<PageContentContainer>
 		<PageTitle title="Appendix" />
-		<InnerContentContainer>
+		<InnerPageContentContainer>
 			<BiweeklyReports />
-		</InnerContentContainer>
+		</InnerPageContentContainer>
 	</PageContentContainer>
 );
 
