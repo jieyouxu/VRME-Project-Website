@@ -51,8 +51,3 @@ To clean the generated `dist` directory, run
 ```bash
 yarn clean
 ```
-
-## Deployment
-
-No CI/CD currently configured, but the generated site at `/public` can be
-statically served.
