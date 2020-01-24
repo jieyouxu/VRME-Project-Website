@@ -143,9 +143,9 @@ const GraphicsRenderingEngineResearch = () => (
 			</CardGroup>
 			<p>
 				Given the development time constraint, it did not seem likely that we
-				have enough time to roll out custom graphics rendering capabilities
-				via the native VrApi, which is the first option we ruled out. We then
-				needed to decide between Unreal vs Unity, based on the following
+				have enough time to roll out custom graphics rendering capabilities via
+				the native VrApi, which is the first option we ruled out. We then needed
+				to decide between Unreal vs Unity, based on the following
 				considerations:
 			</p>
 			<ul>
@@ -171,8 +171,8 @@ const GraphicsRenderingEngineResearch = () => (
 				</li>
 				<li>
 					Learning Difficulty None of the team members have prior VR / C++ /
-					Graphics Rendering / Game Engine experience, so we need to pick a
-					game engine which is faster to learn. Based on discussions in{" "}
+					Graphics Rendering / Game Engine experience, so we need to pick a game
+					engine which is faster to learn. Based on discussions in{" "}
 					<a href="#ref-26">[26]</a> and <a href="27">[27]</a>, Unreal is more
 					suited for high-end, realistic-graphics-rendering 3D games which
 					require high processing power, while Unity is more suited for
