@@ -10,8 +10,8 @@ import Requirements from "./pages/requirements";
 import Research from "./pages/research";
 import HCI from "./pages/hci";
 import Design from "./pages/design";
-import Testing from './pages/testing';
-import Evaluation from './pages/evaluation';
+import Testing from "./pages/testing";
+import Evaluation from "./pages/evaluation";
 import Appendix from "./pages/appendix";
 
 import "bootstrap/dist/css/bootstrap.min.css";

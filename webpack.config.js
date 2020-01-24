@@ -21,8 +21,13 @@ module.exports = {
 				sideEffects: true
 			},
 			{
-				test: /\.(png|svg|jpg|gif)$/,
-	         	use: ["file-loader"],
+				test: /\.(png|svg|jpg|jpeg|gif|pdf)$/,
+	         	use: [{
+					loader: "file-loader",
+					options: {
+						name: '[name].[ext]'
+					}
+				}],
 	      	}
 		]
 	},
