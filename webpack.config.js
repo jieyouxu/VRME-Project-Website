@@ -1,9 +1,11 @@
 const path = require("path");
 const webpack = require("webpack");
 
+const isProduction = () => process.env.NODE_ENV === 'production';
+
 module.exports = {
 	entry: "./src/main.jsx",
-	mode: "production",
+	mode: "development",
 	devtool: "source-map",
 	module: {
 		rules: [
@@ -19,15 +21,20 @@ module.exports = {
 				sideEffects: true
 			},
 			{
-				test: /\.(png|svg|jpg|gif)$/,
-	         	use: ["file-loader"],
+				test: /\.(png|svg|jpg|jpeg|gif|pdf)$/,
+	         	use: [{
+					loader: "file-loader",
+					options: {
+						name: '[name].[ext]'
+					}
+				}],
 	      	}
 		]
 	},
 	resolve: { extensions: ["*", ".js", ".jsx"] },
 	output: {
 		path: path.resolve(__dirname, "dist/"),
-		publicPath: "/dist/",
+		publicPath: "dist/",
 		filename: "[name].bundle.js"
 	},
 	devServer: {
@@ -45,7 +52,7 @@ module.exports = {
 			}
 		})
 	],
-	optimization: {
+	optimization: isProduction() ? {
 		concatenateModules: true,
 		mergeDuplicateChunks: true,
 		minimize: true,
@@ -55,5 +62,5 @@ module.exports = {
 		removeEmptyChunks: true,
 		sideEffects: true,
 		usedExports: true
-	}
+	}: {}
 };

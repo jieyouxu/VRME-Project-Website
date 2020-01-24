@@ -22,7 +22,7 @@ const NavBar = () => {
 				expand="md"
 				className="fixed-top nav-bar theme-bg-base-d0-hard theme-c-base-l0"
 			>
-				<NavbarBrand href="/" className="nav-bar-brand">
+				<NavbarBrand href="#" className="nav-bar-brand">
 					<span className="theme-c-l-red">V</span>
 					<span className="theme-c-l-orange">R</span>
 					<span className="theme-c-l-yellow">M</span>
@@ -52,13 +52,18 @@ const NavBar = () => {
 							</Link>
 						</NavItem>
 						<NavItem>
-							<Link to="/prototype" className="nav-link">
-								Prototype
+							<Link to="/design" className="nav-link">
+								Design
 							</Link>
 						</NavItem>
 						<NavItem>
-							<Link to="/future-plan" className="nav-link">
-								Future Plan
+							<Link to="/testing" className="nav-link">
+								Testing
+							</Link>
+						</NavItem>
+						<NavItem>
+							<Link to="/evaluation" className="nav-link">
+								Evaluation
 							</Link>
 						</NavItem>
 						<NavItem>

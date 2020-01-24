@@ -3,18 +3,15 @@ import React from "react";
 import PageContentContainer from "../../components/page-content-container/PageContentContainer";
 import PageTitle from "../../components/page-title/PageTitle";
 import InnerPageContentContainer from "../../components/inner-page-content-container/InnerPageContentContainer";
+import SystemsArchitecture from "./parts/SystemsArchitecture";
 
-import BiweeklyReports from "./parts/BiweeklyReports";
-import DeploymentManual from "./parts/DeploymentManual";
-
-const Appendix = () => (
+const Prototype = () => (
 	<PageContentContainer>
-		<PageTitle title="Appendix" />
+		<PageTitle title="Design" />
 		<InnerPageContentContainer>
-			<DeploymentManual />
-			<BiweeklyReports />
+			<SystemsArchitecture />
 		</InnerPageContentContainer>
 	</PageContentContainer>
 );
 
-export default Appendix;
+export default Prototype;
