@@ -14,12 +14,12 @@ const AdditionalOculusGoResearch = () => (
 		<CardBody>
 			<p>
 				Oculus Go is a standalone VR headset, meaning that it does not require
-				processing and rendering support from connected devices{" "}
-				<a href="#ref-13">[13]</a>.
+				processing and rendering support from connected devices
+				<a href="#ref-13"> [13]</a>.
 			</p>
 			<p>
-				Each Oculus Go set (minimum, 32 GB, GBP 199) contains{" "}
-				<a href="#ref-13">[13]</a>:
+				Each Oculus Go set (minimum, 32 GB, GBP 199) contains
+				<a href="#ref-13"> [13]</a>:
 			</p>
 			<Card body className="theme-bd-d-green mb-4">
 				<CardDeck className="text-center theme-c-base-d0">
@@ -48,7 +48,7 @@ const AdditionalOculusGoResearch = () => (
 				<li>5.5-inch display</li>
 				<li>2560 &times; 1440 resolution (1280 &times; 1440 per eye)</li>
 				<li>
-					Qualcomm's Snapdragon 821 processor <a href="#ref-16">[16]</a>
+					Qualcomm&apos;s Snapdragon 821 processor <a href="#ref-16">[16]</a>
 				</li>
 				<li>$199 base model includes 32GB of storage</li>
 				<li>3 GB of RAM</li>
