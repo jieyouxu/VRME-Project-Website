@@ -14,7 +14,6 @@ import {
 	CardDeck
 } from "reactstrap";
 
-
 import { IconContext } from "react-icons";
 import { IoIosCreate, IoIosPerson, IoIosHand, IoIosBook } from "react-icons/io";
 import ProjectTitleJumbotron from "./ProjectTitleJumbotron";
@@ -112,7 +111,7 @@ const ProjectSummary = () => (
 											</CardImg>
 											<CardText>
 												Watch the presentation be delivered in an emulated
-												environment (such as an auditorium or lecture hall)
+												environment
 											</CardText>
 										</CardBody>
 									</Card>
