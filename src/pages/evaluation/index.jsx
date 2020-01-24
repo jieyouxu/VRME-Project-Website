@@ -6,6 +6,7 @@ import InnerPageContentContainer from "../../components/inner-page-content-conta
 
 import Achievements from "./parts/Achievements";
 import MoSCoWFeaturesProgress from "./parts/MoSCoWFeatures";
+import IndividualContributions from "./parts/IndividualContributions";
 
 const Evaluation = () => (
 	<PageContentContainer>
@@ -13,6 +14,7 @@ const Evaluation = () => (
 		<InnerPageContentContainer>
 			<Achievements />
 			<MoSCoWFeaturesProgress />
+			<IndividualContributions />
 		</InnerPageContentContainer>
 	</PageContentContainer>
 );
