@@ -8,6 +8,7 @@ import Achievements from "./parts/Achievements";
 import MoSCoWFeaturesProgress from "./parts/MoSCoWFeatures";
 import IndividualContributions from "./parts/IndividualContributions";
 import FuturePlans from "./parts/FuturePlans";
+import CriticalEvaluation from './parts/CriticalEvaluation';
 
 const Evaluation = () => (
 	<PageContentContainer>
@@ -16,6 +17,7 @@ const Evaluation = () => (
 			<Achievements />
 			<MoSCoWFeaturesProgress />
 			<IndividualContributions />
+			<CriticalEvaluation />
 			<FuturePlans />
 		</InnerPageContentContainer>
 	</PageContentContainer>
