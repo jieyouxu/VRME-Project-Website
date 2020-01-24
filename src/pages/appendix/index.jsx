@@ -1,10 +1,11 @@
 import React from "react";
 
 import PageContentContainer from "../../components/page-content-container/PageContentContainer";
+import PageTitle from '../../components/page-title/PageTitle';
 
 const Appendix = () => (
 	<PageContentContainer>
-		<h1>Appendix</h1>
+		<PageTitle title="Appendix" />
 	</PageContentContainer>
 );
 

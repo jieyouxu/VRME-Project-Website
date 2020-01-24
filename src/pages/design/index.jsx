@@ -1,11 +1,12 @@
 import React from "react";
 
 import PageContentContainer from "../../components/page-content-container/PageContentContainer";
+import PageTitle from '../../components/page-title/PageTitle';
 
-const Achievement = () => (
+const Prototype = () => (
 	<PageContentContainer>
-		<h1>Achievement</h1>
+		<PageTitle title="Design" />
 	</PageContentContainer>
 );
 
-export default Achievement;
+export default Prototype;

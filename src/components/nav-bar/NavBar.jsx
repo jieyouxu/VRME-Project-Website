@@ -52,13 +52,18 @@ const NavBar = () => {
 							</Link>
 						</NavItem>
 						<NavItem>
-							<Link to="/prototype" className="nav-link">
-								Prototype
+							<Link to="/design" className="nav-link">
+								Design
 							</Link>
 						</NavItem>
 						<NavItem>
-							<Link to="/future-plan" className="nav-link">
-								Future Plan
+							<Link to="/testing" className="nav-link">
+								Testing
+							</Link>
+						</NavItem>
+						<NavItem>
+							<Link to="/evaluation" className="nav-link">
+								Evaluation
 							</Link>
 						</NavItem>
 						<NavItem>
