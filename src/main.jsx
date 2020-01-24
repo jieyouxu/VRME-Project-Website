@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import { Route } from "react-router";
-import { HashRouter as Router } from "react-router-dom";
+import { MemoryRouter as Router } from "react-router-dom";
 
 import NavBar from "./components/nav-bar/NavBar";
 import Home from "./pages/home";
