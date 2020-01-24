@@ -36,7 +36,13 @@ to be served statically.
 yarn build
 ```
 
-The web page can be opened at `public/index.html`.
+The web page can be opened at `index.html`.
+
+## Serve Production Site
+
+```bash
+yarn serve
+```
 
 ## Clean
 
