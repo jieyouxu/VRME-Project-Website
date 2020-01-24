@@ -2,8 +2,8 @@ import React from "react";
 
 import { CardBody, CardHeader, Card } from "reactstrap";
 
-import SyntaxHighlighter from 'react-syntax-highlighter';
-import { gruvboxDark } from 'react-syntax-highlighter/dist/esm/styles/hljs'
+import SyntaxHighlighter from "react-syntax-highlighter";
+import { gruvboxDark } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 import ContentCard from "../../../components/content-card/ContentCard";
 import ContentCardHeader from "../../../components/content-card-header/ContentCardHeader";
@@ -28,11 +28,11 @@ const DeploymentManual = () => (
 					<ol>
 						<li>Install dependencies.</li>
 						<SyntaxHighlighter language="bash" style={gruvboxDark}>
-							{"yarn install"}
+							yarn install
 						</SyntaxHighlighter>
 						<li>Run the server.</li>
 						<SyntaxHighlighter language="bash" style={gruvboxDark}>
-							{"yarn start"}
+							yarn start
 						</SyntaxHighlighter>
 					</ol>
 				</CardBody>
