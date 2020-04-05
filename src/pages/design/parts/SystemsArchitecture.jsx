@@ -23,8 +23,8 @@ const SystemsArchitecture = () => (
 				We adopt a star architecture, with multiple clients communicating with a
 				central server via <code>HTTP</code> + <code>TCP</code>. Each client is
 				associated with an Oculus Go headset and its Unity front-end instance.
-				The central server is responsible for account management, authentication and 
-				handling meeting sessions.
+				The central server is responsible for account management, authentication
+				and handling meeting sessions.
 			</p>
 		</CardBody>
 	</ContentCard>
