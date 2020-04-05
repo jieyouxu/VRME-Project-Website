@@ -5,7 +5,7 @@ import { CardBody } from "reactstrap";
 import ContentCard from "../../../components/content-card/ContentCard";
 import ContentCardHeader from "../../../components/content-card-header/ContentCardHeader";
 
-import SystemsArchitectureDiagram from "./systems-architecture/arch.svg";
+import SystemsArchitectureDiagram from "./systems-architecture/arch.png";
 
 const SystemsArchitecture = () => (
 	<ContentCard>
@@ -23,9 +23,8 @@ const SystemsArchitecture = () => (
 				We adopt a star architecture, with multiple clients communicating with a
 				central server via <code>HTTP</code> + <code>TCP</code>. Each client is
 				associated with an Oculus Go headset and its Unity front-end instance.
-				The central server is responsible for signalling voice chat, relaying
-				view update messages and handling meeting sessions. We interop with
-				Oculus Platform API for its voice chat functionality.
+				The central server is responsible for account management, authentication and 
+				handling meeting sessions.
 			</p>
 		</CardBody>
 	</ContentCard>

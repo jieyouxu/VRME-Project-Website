@@ -31,12 +31,12 @@ const BackendDesign = () => (
 				repetitively establishing and destroying connections to the database.
 			</p>
 			<p>
-				We benefitted vastly from Rust&apos;s strong type system and memory-safety
-				guarantees from its owernship and lifetimes memory-coherence type system
-				features. This allows us to perform tasks asynchronously and be
-				multi-threaded fearlessly as the compiler is able to catch a significant
-				portion of concurrency bugs at compile-time provided the `unsafe`
-				&quot;escape hatch&quot; is not misused.
+				We benefitted vastly from Rust&apos;s strong type system and
+				memory-safety guarantees from its owernship and lifetimes
+				memory-coherence type system features. This allows us to perform tasks
+				asynchronously and be multi-threaded fearlessly as the compiler is able
+				to catch a significant portion of concurrency bugs at compile-time
+				provided the `unsafe` &quot;escape hatch&quot; is not misused.
 			</p>
 		</CardBody>
 	</ContentCard>
