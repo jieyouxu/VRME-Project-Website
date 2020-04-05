@@ -5,7 +5,7 @@ import PageTitle from "../../components/page-title/PageTitle";
 import InnerPageContentContainer from "../../components/inner-page-content-container/InnerPageContentContainer";
 
 import UISketches from "./parts/UISketches";
-import HCIExplanation from './parts/HCIExplanation';
+import HCIExplanation from "./parts/HCIExplanation";
 
 const HCI = () => (
 	<PageContentContainer>
