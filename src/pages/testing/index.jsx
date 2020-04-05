@@ -15,16 +15,7 @@ const Testing = () => (
 			<ContentCard>
 				<ContentCardHeader title="Unit Testing" />
 				<CardBody>
-					The server currently utilizes{" "}
-					<a href="https://github.com/avajs/ava">ava</a> for running the unit
-					tests.
-				</CardBody>
-			</ContentCard>
-			<ContentCard>
-				<ContentCardHeader title="Integration Testing" />
-				<CardBody>
-					We still need to investigate how to perform integration testing for
-					Unity deployed to Oculus Go, as constrained by the deployment process.
+					The server has unit tests to check intended behaviour.
 				</CardBody>
 			</ContentCard>
 		</InnerPageContentContainer>

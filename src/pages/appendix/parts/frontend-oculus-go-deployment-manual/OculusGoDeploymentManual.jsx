@@ -85,11 +85,11 @@ const OculusGoDeploymentManual = () => (
 				</li>
 			</ol>
 
-			<p>
-				Once the program has been side loaded successfully:
-			</p>
+			<p>Once the program has been side loaded successfully:</p>
 			<ul>
-				<li>On Oculus Go select <code>Library</code></li>
+				<li>
+					On Oculus Go select <code>Library</code>
+				</li>
 				<li>Select unknown sources</li>
 				<li>Select the app named VRMeeting to enter it</li>
 			</ul>
