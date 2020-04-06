@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Jumbotron } from "reactstrap";
 
 import ProjectTitleInitials from "../../../components/project-title-initials/ProjectTitleInitials";

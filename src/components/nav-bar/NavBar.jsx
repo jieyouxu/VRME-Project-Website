@@ -22,7 +22,7 @@ const NavBar = () => {
 				expand="md"
 				className="fixed-top nav-bar theme-bg-base-d0-hard theme-c-base-l0"
 			>
-				<NavbarBrand href="#" className="nav-bar-brand">
+				<NavbarBrand href="#" className="nav-bar-brand font-weight-lighter">
 					<span className="theme-c-l-red">V</span>
 					<span className="theme-c-l-orange">R</span>
 					<span className="theme-c-l-yellow">M</span>

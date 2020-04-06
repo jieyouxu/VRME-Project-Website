@@ -1,7 +1,7 @@
 import React from "react";
 
 const ProjectTitleInitials = () => (
-	<h1 className="font-weight-bold home-title-font text-center">
+	<h1 className="font-weight-lighter home-title-font text-center project-title-initials">
 		<span className="initials-text-bg-d0">
 			<span className="theme-c-l-red">V</span>
 			<span className="theme-c-l-orange">R</span>
