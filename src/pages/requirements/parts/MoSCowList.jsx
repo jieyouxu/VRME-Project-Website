@@ -85,22 +85,11 @@ const MoSCoWList = () => (
 						</Card>
 						<Card className="theme-bg-base-d1 theme-bd-d-aqua">
 							<CardBody>
-								<CardText>
-									Each participant shall have a speaking indication which helps
-									other participants to determine the participant speaking.
-								</CardText>
-							</CardBody>
-						</Card>
-						<Card className="theme-bg-base-d1 theme-bd-d-aqua">
-							<CardBody>
 								<CardText tag="div">
 									Real-time communication.
 									<ul>
 										<li>
 											Each participant must be able to speak to each other.
-										</li>
-										<li>
-											Each participant must be able to mute himself/herself.
 										</li>
 									</ul>
 								</CardText>
@@ -139,9 +128,6 @@ const MoSCoWList = () => (
 							<CardBody>
 								<CardText tag="div">
 									Presentation slide support so presenter can show their slides.
-									<ul>
-										<li>Usable document in PDF format.</li>
-									</ul>
 								</CardText>
 							</CardBody>
 						</Card>
