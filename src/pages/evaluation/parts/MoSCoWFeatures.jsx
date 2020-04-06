@@ -189,7 +189,10 @@ const MoSCoWFeaturesProgress = () => (
 				<tbody>
 					<tr>
 						<th scope="row">20</th>
-						<td>Realistic rendering of humanoid models of meeting attendees and presenters</td>
+						<td>
+							Realistic rendering of humanoid models of meeting attendees and
+							presenters
+						</td>
 						<td className="theme-c-l-aqua">Could</td>
 						<td className="theme-c-l-gray">N/A</td>
 						<td>All</td>
@@ -210,7 +213,9 @@ const MoSCoWFeaturesProgress = () => (
 					</tr>
 					<tr>
 						<th scope="row">23</th>
-						<td>Other forms of VR meeting environments, such as lecture hall</td>
+						<td>
+							Other forms of VR meeting environments, such as lecture hall
+						</td>
 						<td className="theme-c-l-aqua">Could</td>
 						<td className="theme-c-l-gray">N/A</td>
 						<td>All</td>
